@@ -1,0 +1,36 @@
+.saved-container {
+	margin-top: 3em;
+}
+
+.image-card {
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100px;
+}
+
+.image-link {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100px;
+}
+
+.view-link {
+	color: black;
+}
+
+.view-link:visited {
+	color: black;
+}
+
+/* media queries */
+
+@media (max-width: 750px) {
+	.saved-container {
+		width: 90%;
+		margin: 0 auto;
+		max-width: 270px;
+	}
+}

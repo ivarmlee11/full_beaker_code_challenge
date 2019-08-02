@@ -1,0 +1,58 @@
+.search-result-card {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2em;
+}
+
+.image-container {
+	display: flex;
+	flex-direction: column;
+	width: 130px;
+}
+
+.info-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 3em;
+}
+
+.tag {
+	display: inline-block;
+	background-color: teal;
+	padding: 0.4em;
+	color: white;
+	margin: 0.4em;
+}
+
+.likes-and-favs {
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 110px;
+}
+
+.likes-and-favs > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 35px;
+}
+
+.saved {
+	background-color: #fc6c85;
+	padding: 0.2em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.not-saved {
+	cursor: pointer;
+	background-color: orange;
+	padding: 0.2em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.flexable-container {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	padding-bottom: 3em;
+	margin: 0 auto;
+}
+
+main {
+	min-height: 90vh;
+	width: 60%;
+	border-right: 2px solid lightgrey;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+aside {
+	margin-left: 2em;
+}
+
+footer {
+	background-color: white;
+	border-top: 2px solid lightgrey;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer > a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 0.2em 0 0.2em 0.2em;
+}
+
+/* media queries */
+
+@media (max-width: 750px) {
+	.flexable-container {
+		flex-direction: column;
+	}
+
+	main {
+		width: 100%;
+		min-height: 0;
+		border: 0;
+	}
+}

@@ -1,0 +1,61 @@
+form,
+.search-results {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 2em;
+	max-width: 250px;
+}
+
+input,
+select,
+button {
+	margin-top: 1em;
+	max-width: 250px;
+	border-radius: 10px;
+}
+
+.text-input {
+	height: 30px;
+}
+
+input,
+select {
+	border: 2px solid lightgrey;
+	color: gray;
+	font-weight: bold;
+	padding-left: 1em;
+	font-style: italic;
+}
+
+select {
+	color: gray;
+}
+
+button {
+	cursor: pointer;
+	height: 60px;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: darkblue;
+}
+
+button:active {
+	box-shadow: 2px 2px 2px gray;
+}
+
+.error {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/* media queries */
+
+@media (max-width: 750px) {
+	form,
+	.search-results {
+		width: 90%;
+	}
+}

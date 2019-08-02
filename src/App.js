@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Container from './components/container';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<Container />
+			{/* I read the API Docs, gotta link to their site. Haha */}
+			<footer>
+				<a href="https://pixabay.com">
+					I am making use of the Pixabay API
+				</a>
+			</footer>
+		</div>
+	);
 }
 
 export default App;
